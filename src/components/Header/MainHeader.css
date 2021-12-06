@@ -1,5 +1,5 @@
 .MainHeader{
-    background-color: #6b71ca;
+    /* background-color: rgb(45, 88, 126); */
     margin: 0;
     padding: 0;
 }
@@ -12,19 +12,22 @@
 }
 
 .MainHeader-ul li{
-    margin: 5px;
-    border-radius: 25px;
+    border-radius:25%;
 }
 
 a:link, a:visited {
-    background-color: #6b71ca;
+    /* background-color: rgb(45, 88, 126); */
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    color: #C3D9DE;
+
   }
   
   a:hover, a:active {
-    background-color: #5a60ac;
+    /* background-color: rgb(45, 79, 109); */
+    border-radius:10px;
+    color:#C3D9DE;
   }

@@ -1,3 +1,25 @@
 .Main{
-    color: red;
+    background-color: rgb(230, 230, 250);
+}
+
+.Main-table{
+    
+}
+
+.Main-table-td th{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(180, 180, 197);
+}
+
+.Main-table-td th img{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+.Main-table-td th:hover{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(170, 170, 187, 0.63)
 }

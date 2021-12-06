@@ -4,8 +4,10 @@ import './Main.css';
 const Main = () =>{
 
     return(
-        <div className={'Main'}>
-            Main
+        <div className='Main'>
+            <table className='Main-table'>
+               
+            </table>
         </div>
     )
 }

@@ -1,14 +1,15 @@
 import './App.css';
 import MainHeader from './components/Header/MainHeader';
-import Main from './components/Main/Main';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <MainHeader/>
       </header>
-      <div>
-        
+      <div className="contend">
+      </div>
+      <div className='footer'>
+        <p>This page used for markap</p>
       </div>
     </div>
   );
