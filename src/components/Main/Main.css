@@ -1,25 +1,33 @@
 .Main{
-    background-color: rgb(230, 230, 250);
+    background-color: #2D587E;
+    max-width: 50%;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
 }
 
-.Main-table{
-    
-}
-
-.Main-table-td th{
+.Main ul li{
+    list-style: none;
+    border:1px solid red;
+    max-width: 250px;
+    /* max-height: 250px; */
     margin: 5px;
-    padding: 5px;
-    background-color: rgb(180, 180, 197);
+    padding: 1px;
 }
 
-.Main-table-td th img{
-    max-width: 500px;
-    max-height: 500px;
+.component-ul{
+    display: flex;
 }
 
+.component-li{
+    height: max-content;
+}
+.component-li h4{
+   /* color: red; */
+   margin: 0 auto;
+   text-align: center;
+}
 
-.Main-table-td th:hover{
-    margin: 5px;
-    padding: 5px;
-    background-color: rgba(170, 170, 187, 0.63)
+.component-li p{
+    margin: 0 auto;
+    text-align: center;
 }
